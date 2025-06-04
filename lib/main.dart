@@ -30,6 +30,7 @@ class Cuerpo extends StatelessWidget {
       body:Column(children: [
          btnEjercicio1(context), 
          btnEjercicio2(context),
+         btnEjercicio3(context),
         
       ],)
     );
@@ -65,6 +66,6 @@ Widget btnEjercicio3(BuildContext context) {
       context,
       MaterialPageRoute(builder: (context) => Pantalla3()),
     ),
-    child: Text("Pantalla 2"),
+    child: Text("Pantalla 3"),
   );
 }

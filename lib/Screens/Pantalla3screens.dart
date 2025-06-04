@@ -7,8 +7,8 @@ class Pantalla3 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Pantalla 1")),
-      body:Text("BIENVENIDO - PANTALLA 1")
+        title: Text("Pantalla 3")),
+      body:Text("BIENVENIDO - PANTALLA 3")
     );
   }
 }
