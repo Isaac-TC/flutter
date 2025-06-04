@@ -30,7 +30,7 @@ class Pantalla1 extends StatelessWidget {
             ),
             SizedBox(height: 12),
 
-            // Nivel de inglés
+            // Nivel de inglés lista desplegable
             ValueListenableBuilder<String?>(
               valueListenable: _nivelIngles,
               builder: (context, value, _) {
@@ -72,7 +72,7 @@ class Pantalla1 extends StatelessWidget {
 
                 if (edad == null || promedio == null || nivel == null) {
                   mostrarResultado(context,
-                      "⚠️ Por favor completa todos los campos correctamente.");
+                      "Por favor completa todos los campos correctamente.");
                   return;
                 }
 
